@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,33 +13,32 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
-
-Route::namespace('Api')->group(function() {
-
-    //Rota para login
-    Route::post('login', 'Auth\\LoginJwtController@login')->name('login');
-    Route::get('logout', 'Auth\\LoginJwtController@logout')->name('logout');
-    Route::get('refresh', 'Auth\\LoginJwtController@refresh')->name('refresh');
+Route::post('/login', ['uses' => 'Api\LoginController@login'])->name('api.login');
+Route::get('/logout', ['uses' => 'Api\LoginController@logout'])->name('api.logout');
 
 
-    Route::group(['middleware' => ['jwt.auth']], function (){
-
-        //Rotas para os Logs de Erros
-        Route::name('')->group(function() {
-            Route::resource('erros', 'ErroController');
-        });
-
-
-        // Rotas para os usuários
-        Route::name('')->group(function() {
-            Route::resource('users', 'UserController');
-        });
+Route::group(['middleware' => 'jwt.auth'], function () {
+  Route::namespace('Api')->group(function() {
+    Route::prefix('erros')->group(function() {
+      Route::get('/', ['uses' => 'ErroController@index'])->name('erros.index');
+      Route::get('/{id}', ['uses' => 'ErroController@show'])->name('erros.show');
+      Route::post('/cadastrar', ['uses' => 'ErroController@save'])->name('erros.save');
+      Route::patch('/arquivar/{id}', ['uses' => 'ErroController@store'])->name('erros.store');
+      Route::delete('/deletar/{id}', ['uses' => 'ErroController@destroy'])->name('erros.destroy');
     });
 
-
+    Route::prefix('users')->group(function() {
+      Route::get('/', ['uses' => 'UserController@index'])->name('user.index');
+      Route::get('/{id}', ['uses' => 'UserController@show'])->name('user.show');
+      Route::post('/cadastrar', ['uses' => 'UserController@save'])->name('user.save');
+      Route::patch('/atualizar/{id}', ['uses' => 'UserController@update'])->name('user.update');
+      Route::delete('/deletar/{id}', ['uses' => 'UserController@destroy'])->name('user.destroy');
+    });
+  });
 });
+
+
+
+
 
 

@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Erro extends Model
 {
-
     protected $fillable = [
         'id',
         'usuario_id',
@@ -21,7 +20,6 @@ class Erro extends Model
         'data'
     ];
 
-
     /**
      * The attributes that should be cast to native types.
      *
@@ -31,8 +29,13 @@ class Erro extends Model
         'email_verified_at' => 'datetime',
     ];
 
+    //public $timestamps = false;
+
     public function user ()
     {
-        return $this->belongsTo(User::class, 'id');
+        return $this->belongsTo(User::class, 'usuario_id');
     }
+
 }
+
+
