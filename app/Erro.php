@@ -7,7 +7,17 @@ use Illuminate\Database\Eloquent\Model;
 class Erro extends Model
 {
     protected $fillable = [
-        'id', 'usuario_id', 'titulo', 'descricao', 'nivel', 'eventos', 'id_frequencia', 'ambiente', 'origem', 'status', 'usuario_name', 'data'
+        'id',
+        'usuario_id',
+        'titulo',
+        'descricao',
+        'nivel',
+        'eventos',
+        'ambiente',
+        'origem',
+        'status',
+        'usuario_name',
+        'data'
     ];
 
     /**

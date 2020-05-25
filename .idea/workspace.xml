@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="3b4dad26-eb82-4ec3-8bf2-369e6ea49e34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_03_181114_add_ambiente_to_erros_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projeto_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projeto_final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ErroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ErroController.php" afterDir="false" />
     <list default="true" id="6b69f8ad-e4e1-4679-b5c4-4f0115964ff4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -100,6 +107,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="b476c9dc-3ce2-47fb-adfd-9b23ac2937d7" name="localhost" />
+    </servers>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -258,7 +270,12 @@
     <option name="width" value="1805" />
     <option name="height" value="600" />
   </component>
+  <component name="ProjectId" id="1UZx7zej2tVxU4CtJET0XcgUqXi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -340,6 +357,18 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -349,6 +378,97 @@
       <created>1572284964287</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+      <updated>1573210922364</updated>
+      <workItem from="1573210924758" duration="10708000" />
+      <workItem from="1573246109725" duration="23794000" />
+      <workItem from="1573301099518" duration="2564000" />
+      <workItem from="1573317980024" duration="2944000" />
+      <workItem from="1573493786905" duration="15267000" />
+      <workItem from="1573593241706" duration="1236000" />
+      <workItem from="1574199074004" duration="54000" />
+      <workItem from="1574525414054" duration="67000" />
+      <workItem from="1574529659448" duration="593000" />
+      <workItem from="1574712473497" duration="650000" />
+      <workItem from="1574713584030" duration="8942000" />
+      <workItem from="1575029932503" duration="161000" />
+      <workItem from="1575032092256" duration="266000" />
+      <workItem from="1575134072953" duration="549000" />
+      <workItem from="1575135259239" duration="5000" />
+      <workItem from="1575135484520" duration="6930000" />
+      <workItem from="1575286777487" duration="3733000" />
+      <workItem from="1575299085039" duration="11015000" />
+      <workItem from="1575577757486" duration="190000" />
+      <workItem from="1575578179900" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="18" key="#Servers" timestamp="1575577890638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="18" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1575577890638" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1575577947178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575577947178" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1575577947177">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575577947177" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1575577947177">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575577947177" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1575577947178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575577947178" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1575577947178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575577947178" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1575577947178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1575577947178" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1575577947178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1575577947178" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1575577947178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575577947178" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1575577947179">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575577947179" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1575577947178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1575577947178" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1575577947178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1575577947178" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1575577947178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1575577947178" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/Api/ErroController.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
       <updated>1572284964287</updated>
       <workItem from="1572284966832" duration="21100000" />
       <workItem from="1572382915824" duration="38000" />
