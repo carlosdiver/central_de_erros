@@ -5,9 +5,9 @@
 ## Com o prompt de comando ou terminal na raiz do projeto -> composer install
 ## Para criar as tabelas na Base de Dados -> php artisan migrate
 
-### Criação de endpoints para serem usados pelo frontend da aplicação
-### Criação de um endpoint que será usado para gravar os logs de erro em um banco de dados relacional
-### Autenticação com JWT para segurança da API, permitindo acesso apenas com um token de autenticação válido
+### -> Criação de endpoints para serem usados pelo frontend da aplicação
+### -> Criação de um endpoint que será usado para gravar os logs de erro em um banco de dados relacional
+### -> Autenticação com JWT para segurança da API, permitindo acesso apenas com um token de autenticação válido
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
