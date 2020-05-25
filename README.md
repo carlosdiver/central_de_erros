@@ -6,7 +6,7 @@
 ## Para criar as tabelas na Base de Dados -> php artisan migrate
 </br></br>
 
-<h3> <strong>Objetivos do projetos: </strong></h3>
+<h3> <b>Objetivos do projetos: </b></h3>
 
 #### - Criação de endpoints para serem usados pelo frontend da aplicação
 #### - Criação de um endpoint que será usado para gravar os logs de erro em um banco de dados relacional
